@@ -14,7 +14,7 @@ This project is related to audio processing, it has 2 main objectives:
 
 The files related to the Single file Classification are inside the 'SFC' folder, the Python script 'trainAndTest.py' is used to train and test audio classifier which handles the classification between "Good" and "Bad" audio files.
 
-Before execute the script, add audio files which used for training and testing in to the folder "SetA" and "SetB", be default, folder "SetA" contains the audio files for training and "SetB" contains the audio files for testing, one can rename the folders in an opposite way to swap the testing and training set.
+Before execute the script, put audio files which used for training and testing in to the folder "SetA" and "SetB", be default, folder "SetA" contains the audio files for training and "SetB" contains the audio files for testing, one can rename the folders in an opposite way to swap the testing and training set.
 
 There are four dummy blank text files in the folders which contains the testing and training sets, these files are only created to display the correct path user should put the audio files in. (Otherwise git won't contain the empty folders after the this project been cloned from the web.)
 
