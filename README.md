@@ -20,7 +20,7 @@ There are four dummy blank text files in the folders which contains the testing 
 
 To execute the script after the training and testing files are placed, type the following line in the terminal:
 
-- python trainAndTest.py modelName midtermWindo> midtermStep
+- python trainAndTest.py modelName midtermWindow midtermStep
 
 modelName is the name of the machine learning method which can only be the following:
 
