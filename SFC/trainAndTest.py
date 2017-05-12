@@ -18,9 +18,7 @@ aT.featureAndTrain(["SetA/Good/",
 
 
 for fileName in [f for f in os.listdir("SetB/Good/") if path.isfile(path.join("SetB/Good/",f))]:
-    print "Good: "+fileName
-    print aT.fileClassification("SetB/Good/"+fileName, "Models/"+modelName, modelName)
+    print "Classification result for good file: "+fileName+" is " + aT.fileClassification("SetB/Good/"+fileName, "Models/"+modelName, modelName)
 
 for fileName in [f for f in os.listdir("SetB/Bad/") if path.isfile(path.join("SetB/Bad/",f))]:
-    print "Bad: "+fileName
-    print aT.fileClassification("SetB/Bad/"+fileName, "Models/"+modelName, modelName)
+    print "Classification result for bad file: "+fileName+" is " + aT.fileClassification("SetB/Bad/"+fileName, "Models/"+modelName, modelName)
